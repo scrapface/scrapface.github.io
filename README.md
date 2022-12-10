@@ -1,4 +1,4 @@
-# [Scrapface.Github.Io][website] &middot; [![GitHub license]](./LICENSE) ![Test Action]
+# [Scrapface][website] &middot; [![GitHub license]](./LICENSE) ![Test Action] ![Deploy Action]
 
 <!-- Table of Contents -->
 
@@ -64,9 +64,10 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 
 <!-- Repository links -->
 
-[website]: https://github.com/scrapface/scrapface.github.io
+[website]: https://scrapface.github.io
 
 <!-- Shields.io links -->
 
 [github license]: https://img.shields.io/badge/license-MIT-blue.svg
 [test action]: https://github.com/scrapface/scrapface.github.io/actions/workflows/ci.yaml/badge.svg
+[deploy action]: https://github.com/scrapface/scrapface.github.io/actions/workflows/deploy.yaml/badge.svg
