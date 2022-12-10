@@ -31,8 +31,8 @@ const title = computed(() => t(pageLayout, { title: t(pageTitle) }));
       <Link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
       <Link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       <Link rel="manifest" href="/site.webmanifest" />
-      <Link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00f183" />
-      <Meta name="msapplication-TileColor" content="#00f183" />
+      <Link rel="mask-icon" href="/safari-pinned-tab.svg" color="#2f9cbb" />
+      <Meta name="msapplication-TileColor" content="#ffffff" />
       <Meta name="theme-color" content="#ffffff" />
     </Head>
     <Body>
