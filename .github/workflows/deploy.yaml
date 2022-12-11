@@ -19,7 +19,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      SITE_URL: https://scrapface.github.io
+      SITE_URL: ${{ secrets.SITE_URL }}
 
     steps:
       - name: Checkout repository
