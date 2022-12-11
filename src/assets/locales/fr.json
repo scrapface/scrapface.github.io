@@ -1,7 +1,7 @@
 {
   "meta": {
     "head": {
-      "description": "Experience the fun of animatronics with Scrapface and our user-friendly control panel."
+      "description": "Contrôlez votre animatronic Scrapface à distance avec notre panneau de commande facile à utiliser."
     }
   },
   "layout": {
@@ -11,7 +11,7 @@
   },
   "page": {
     "unnamed": {
-      "title": "Control panel"
+      "title": "Panneau de commande"
     }
   }
 }
