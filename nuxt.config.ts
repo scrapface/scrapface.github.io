@@ -14,6 +14,15 @@ export default defineNuxtConfig({
 
   colorMode: { classSuffix: "", storageKey: "theme" },
 
+  fontLoader: {
+    external: [
+      {
+        src: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+        family: "Inter",
+      },
+    ],
+  },
+
   i18n: {
     baseUrl: process.env.SITE_URL || "", // For SEO.
     detectBrowserLanguage: { cookieKey: "locale" },
