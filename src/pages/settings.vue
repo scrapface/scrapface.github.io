@@ -25,9 +25,5 @@ const availableLocale = computed(() => locales.value.find((i: { code: string }) 
         </select>
       </div>
     </ClientOnly>
-
-    <div class="mt-2 text-red-600">
-      <NuxtLink :to="localePath('/')">Go back</NuxtLink>
-    </div>
   </div>
 </template>
