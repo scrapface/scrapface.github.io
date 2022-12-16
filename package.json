@@ -38,6 +38,7 @@
     "vue-tsc": "^1.0.12"
   },
   "dependencies": {
+    "@pinia-plugin-persistedstate/nuxt": "^1.0.0",
     "@pinia/nuxt": "^0.4.5",
     "@vueuse/core": "^9.6.0",
     "@vueuse/nuxt": "^9.6.0"

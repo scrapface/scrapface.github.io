@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n", // https://v8.i18n.nuxtjs.org
     "@nuxtjs/tailwindcss", // https://tailwindcss.com
     "@pinia/nuxt", // https://pinia.vuejs.org
+    "@pinia-plugin-persistedstate/nuxt", // https://prazdevs.github.io/pinia-plugin-persistedstate
     "@vueuse/nuxt", // https://vueuse.org/guide
     "nuxt-font-loader", // https://github.com/ivodolenc/nuxt-font-loader
     "nuxt-icon", // https://github.com/nuxt-modules/icon
