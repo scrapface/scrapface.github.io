@@ -1,7 +1,7 @@
 <script setup lang="ts">
 const { locale, locales } = useI18n();
 const switchLocalePath = useSwitchLocalePath();
-const availableLocale = computed(() => locales.value.filter((i) => i.code !== locale.value)[0]);
+const availableLocale = computed(() => locales.value.find((i: { code: string }) => i.code !== locale.value));
 </script>
 
 <template>
