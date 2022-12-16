@@ -11,7 +11,7 @@ const availableLocale = computed(() => locales.value.filter((i) => i.code !== lo
         <span>Switch language to: </span>
         <span class="text-blue-600">
           <NuxtLink :to="switchLocalePath(availableLocale.code)">
-            {{ locale.name }}
+            {{ availableLocale.name }}
           </NuxtLink>
         </span>
       </div>
