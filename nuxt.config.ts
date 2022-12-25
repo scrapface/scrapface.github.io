@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   srcDir: "src",
   imports: { dirs: ["stores"] },
+  build: { transpile: ["vuetify"] },
   modules: [
     "@nuxtjs/color-mode", // https://color-mode.nuxtjs.org
     "@nuxtjs/i18n", // https://v8.i18n.nuxtjs.org
@@ -12,6 +13,9 @@ export default defineNuxtConfig({
     "nuxt-font-loader", // https://github.com/ivodolenc/nuxt-font-loader
     "nuxt-icon", // https://github.com/nuxt-modules/icon
   ],
+
+  // Make sure to include vuetify styles.
+  css: ["vuetify/lib/styles/main.sass"],
 
   colorMode: { classSuffix: "", storageKey: "theme" },
 
