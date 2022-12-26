@@ -1,10 +1,9 @@
 <template>
-  <div class="font-inter relative min-h-screen bg-transparent">
-    <div class="absolute flex h-full w-full flex-col">
-      <NavBar />
-      <div class="h-full w-full grow">
+  <div class="relative min-h-screen bg-transparent">
+    <div class="font-inter absolute h-full w-full">
+      <v-app>
         <slot />
-      </div>
+      </v-app>
     </div>
   </div>
 </template>
