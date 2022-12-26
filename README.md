@@ -20,6 +20,7 @@ The requirements are:
 
 - [Node.js]
 - [Yarn]
+- [Rust] & [Tauri]
 
 1. Install the dependencies
    ```shell
@@ -30,22 +31,13 @@ The requirements are:
    npx playwright install --with-deps
    ```
 
-## Environment Variables
-
-To run this project, create a `.env` file in the root directory and add the following environment variables:
-
-| Variable | Description             | Default |
-|----------|-------------------------|---------|
-| SITE_URL | The url of your website | ""      |
-
 ## Usage
 
 In order to start the website, you will need to run the NPM scripts that are available in the package.json file,
 using `yarn` or `npm run`. Here are the most important ones:
 
-- **`dev`**: Starts the development server in http://localhost:3000.
-- **`build`**: Builds your application for production. The output folder is `.output`.
-- **`preview`**: Previews the production build from `.output` locally.
+- **`dev`**: Starts the tauri development server.
+- **`build`**: Builds your application for production. The output is in `src-tauri/target`.
 - **`test:unit`**: Runs the unit tests using [Vitest].
 - **`test:e2e`**: Runs the end-to-end tests using [Playwright].
 - **`lint`**: Lints the project using [ESLint].
@@ -57,10 +49,12 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 <!-- Packages links -->
 
 [eslint]: https://eslint.org
-[node.js]: https://nodejs.org/en/
+[node.js]: https://nodejs.org/en
 [playwright]: https://playwright.dev
+[rust]: https://www.rust-lang.org
+[tauri]: https://tauri.app/v1/guides/getting-started/prerequisites
 [vitest]: https://vitest.dev
-[yarn]: https://yarnpkg.com/
+[yarn]: https://yarnpkg.com
 
 <!-- Repository links -->
 

@@ -51,7 +51,7 @@ jobs:
 
       # Required for e2e tests.
       - name: Build the project
-        run: yarn build
+        run: yarn build:web
 
       - name: Run unit and e2e tests
         run: |
