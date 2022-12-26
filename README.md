@@ -1,20 +1,20 @@
-# [Scrapface][website] &middot; [![GitHub license]](./LICENSE) ![CI Action] ![Deploy Action]
+# [Scrapface][repo] &middot; [![GitHub license]](./LICENSE) ![CI Action] ![Deploy Action]
 
 <!-- Table of Contents -->
 
 - [Installation](#installation)
-- [Usage](#usage)
+- [Development](#development)
+  - [Setup](#setup)
+  - [Commands](#commands)
 - [License](#license)
 
 ## Installation
 
-The first step will be to clone the repo
+You can download the latest version of Scrapface for your corresponding OS from the [releases page][releases].
 
-```shell
-git clone https://github.com/scrapface/scrapface.github.io.git
-```
+## Development
 
-### For development
+### Setup
 
 The requirements are:
 
@@ -22,16 +22,22 @@ The requirements are:
 - [Yarn]
 - [Rust] & [Tauri]
 
-1. Install the dependencies
+1. Clone the repository
+   ```shell
+   git clone https://github.com/scrapface/scrapface.github.io.git
+   ```
+
+2. Install the dependencies
    ```shell
    yarn
    ```
-2. Optionally, you can install playwright to run the e2e tests
+   
+3. Optionally, you can install playwright to run the e2e tests
    ```shell
    npx playwright install --with-deps
    ```
 
-## Usage
+### Commands
 
 In order to start the website, you will need to run the NPM scripts that are available in the package.json file,
 using `yarn` or `npm run`. Here are the most important ones:
@@ -58,10 +64,11 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 
 <!-- Repository links -->
 
-[website]: https://scrapface.github.io
+[releases]: https://github.com/scrapface/app/releases/latest
+[repo]: https://github.com/scrapface/app
 
 <!-- Shields.io links -->
 
 [github license]: https://img.shields.io/badge/license-MIT-blue.svg
-[ci action]: https://github.com/scrapface/scrapface.github.io/actions/workflows/ci.yaml/badge.svg
-[deploy action]: https://github.com/scrapface/scrapface.github.io/actions/workflows/deploy.yaml/badge.svg
+[ci action]: https://github.com/scrapface/app/actions/workflows/ci.yaml/badge.svg
+[deploy action]: https://github.com/scrapface/app/actions/workflows/release.yaml/badge.svg
