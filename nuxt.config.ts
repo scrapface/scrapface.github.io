@@ -44,4 +44,7 @@ export default defineNuxtConfig({
       siteUrl: process.env.SITE_URL || "",
     },
   },
+
+  // Disable ssr for Tauri.
+  ssr: false,
 });

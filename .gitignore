@@ -34,6 +34,9 @@ nuxt.d.ts
 .output/
 .env
 
+# Tauri
+src-tauri/target/
+
 ### Editors template
 .idea/
 .vscode/
